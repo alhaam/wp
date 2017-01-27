@@ -10,6 +10,6 @@ services:
       WORDPRESS_DB_PASSWORD: Qaftek1
 
   mysql:
-    image: mariadb
+    image: mysql:5.7
     environment:
       MYSQL_ROOT_PASSWORD: Qaftek1
